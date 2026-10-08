@@ -1,0 +1,16 @@
+{
+  "hemisphere": {
+    "Description": "Hemisphere from the montage file the electrode is listed in (L_MontageMap / R_MontageMap); n/a if not listed"
+  },
+  "type": {
+    "Description": "EEG = intracranial contact; the release does not say which contacts are subdural grid, strip or depth electrodes"
+  },
+  "low_cutoff": {
+    "Description": "Hardware high-pass corner of the recording site (article section 2.4)",
+    "Units": "Hz"
+  },
+  "high_cutoff": {
+    "Description": "Hardware low-pass corner of the recording site (article section 2.4)",
+    "Units": "Hz"
+  }
+}

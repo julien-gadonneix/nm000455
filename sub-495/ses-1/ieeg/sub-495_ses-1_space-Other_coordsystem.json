@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "Columns 2-4 of the authors' L_/R_MontageMap.mat, copied unchanged. The Dryad README calls them '3d MNI coordinates' and the article says BioImage Suite placed electrodes 'in MNI space (Colin 22 brain template)'. The values are all positive (about 10-200), i.e. image (voxel-index) coordinates in the template image rather than MNI millimetres, and the transform to MNI mm is not given. They are therefore NOT labelled MNI here; do not use them for atlas lookups without that transform."
+}

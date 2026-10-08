@@ -1,0 +1,15 @@
+{
+  "x": {
+    "Description": "Montage map column 2 as released"
+  },
+  "y": {
+    "Description": "Montage map column 3 as released"
+  },
+  "z": {
+    "Description": "Montage map column 4 as released"
+  },
+  "hemisphere": {
+    "Description": "L_MontageMap (L) or R_MontageMap (R)"
+  },
+  "SpatialReference": "Authors' template image: Colin 22 brain template as used by BioImage Suite; the exact image and the voxel-to-MNI transform were not released. Coordinates are copied unchanged from L_/R_MontageMap.mat; this participant has no montage entries in the release, so all coordinates are n/a."
+}

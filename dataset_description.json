@@ -1,0 +1,79 @@
+{
+  "Name": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Kate L. Christison-Lagay",
+    "Aya Khalaf",
+    "Noah C. Freedman",
+    "Christopher Micek",
+    "Sharif I. Kronemer",
+    "Mariana M. Gusso",
+    "Lauren Kim",
+    "Sarit Forman",
+    "Julia Ding",
+    "Mark Aksen",
+    "Ahmad Abdel-Aty",
+    "Hunki Kwon",
+    "Noah Markowitz",
+    "Erin Yeagle",
+    "Elizabeth Espinal",
+    "Jose Herrero",
+    "Stephan Bickel",
+    "James Young",
+    "Ashesh Mehta",
+    "Kun Wu",
+    "Jason Gerrard",
+    "Eyiyemisi Damisah",
+    "Dennis Spencer",
+    "Jiayin Qu",
+    "Hal Blumenfeld"
+  ],
+  "Acknowledgements": "Data released on Dryad by Kate L. Christison-Lagay, Hal Blumenfeld et al. (Yale University). Repackaged to BIDS for NEMAR.",
+  "HowToAcknowledge": "Cite Christison-Lagay et al. (2025) NeuroImage 308:121041, doi:10.1016/j.neuroimage.2025.121041, and the Dryad dataset doi:10.5061/dryad.h44j0zpww.",
+  "Funding": [
+    "NIH R01 NS134655 (HB)",
+    "NIH R01 DC007657 (Europe PMC grant list)",
+    "Mark Loughridge and Michelle Williams Foundation (HB)",
+    "Betsy and Jonathan Blattmachr Family (HB)",
+    "CAPES 88887.147295/2017-00 and 88881.186875/2018-01 (MG)",
+    "Fundação Araucária and CAPES 88887.185226/2018-00 (MG)"
+  ],
+  "EthicsApprovals": [
+    "Institutional review boards of Yale University, The Mount Sinai Hospital and Northwell Health (article section 2.1); written informed consent"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5061/dryad.h44j0zpww",
+    "https://doi.org/10.1016/j.neuroimage.2025.121041",
+    "https://doi.org/10.1101/2023.01.12.523829"
+  ],
+  "Keywords": [
+    "conscious perception",
+    "auditory perception",
+    "perceptual threshold",
+    "intracranial EEG",
+    "epilepsy",
+    "epochs",
+    "derivative"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.h44j0zpww",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.h44j0zpww",
+      "Version": "Dryad version 369244 (published 2025-06-09)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' epoching and artifact screening (MATLAB 2019a)",
+      "Description": "Continuous icEEG (not released) segmented around the target sound; epochs with clinical or subclinical epileptic events removed by visual inspection; four-stage artifact rejection (Welch PSD peak > 200 µV/Hz above 30 Hz; MSE < 200 µV^2; MSE to the mean trace > 3000 µV^2, at most 20 % per electrode; samples > 5 SD); trials sorted into Perceived / Not Perceived / blank; grey-matter electrodes only (article sections 2.3-2.5). Released as 2-s epochs (Dryad README); removed channel-epochs are NaN. Some file names state further steps, e.g. 'sounds_restricted', 'CPonly', 'recalibrated', 'no_TTL_artifact_subtract_30Hz_movmean' (not documented further).",
+      "CodeURL": "https://doi.org/10.5061/dryad.h44j0zpww"
+    },
+    {
+      "Name": "f2_convert_aud.py",
+      "Description": "Repackaging of BC_trials / WG_trials / blank_TN_trials (float64) to BrainVision IEEE float32 (bit-exact to float32 of the source, NaN kept), one file per participant and implantation with the epochs concatenated and marked in events.tsv; montage-map values as released (space-Other). Code in code/.",
+      "Version": "2026-10-08"
+    }
+  ]
+}

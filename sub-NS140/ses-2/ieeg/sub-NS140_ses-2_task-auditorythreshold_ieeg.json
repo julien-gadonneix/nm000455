@@ -1,0 +1,31 @@
+{
+  "TaskName": "auditorythreshold",
+  "TaskDescription": "Auditory perceptual threshold task: a 75 ms target sound (waterdrop, whistle or 'laser') embedded in continuous white noise at the participant's calibrated 50 % detection threshold (14 % blank trials), followed by two questions (heard? which sound?). Article section 2.2.",
+  "Instructions": "Report whether a target sound was heard (yes/no buttons, counterbalanced), then identify it (guess if not heard).",
+  "InstitutionName": "Northwell Health",
+  "Manufacturer": "Tucker-Davis Technologies",
+  "ManufacturersModelName": "PZ5M amplifier",
+  "SamplingFrequency": 3051.0,
+  "PowerLineFrequency": 60,
+  "HardwareFilters": {
+    "Bandpass": {
+      "Description": "0.4-1500.0 Hz corner frequencies stated in the article for Northwell Health"
+    }
+  },
+  "SoftwareFilters": {
+    "AuthorsProcessing": {
+      "Description": "Authors' epoching and artifact screening as released (sorted_trials file 'sorted_trials_sounds_restricted_CPonly_all_gray_matter.mat'); see README. No filtering stated for the released epochs."
+    }
+  },
+  "iEEGReference": "Referential montage of the original acquisition: a single reference electrode selected by the clinical team (article section 2.4)",
+  "iEEGGround": "n/a",
+  "iEEGPlacementScheme": "Clinically determined subdural grids, strips and depth electrodes; only grey-matter contacts released",
+  "ElectrodeManufacturer": "n/a",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 156,
+  "RecordingType": "epoched",
+  "EpochLength": 2.0,
+  "RecordingDuration": 344.0,
+  "SourceFile": "NS140_2/sorted_trials_sounds_restricted_CPonly_all_gray_matter.mat"
+}

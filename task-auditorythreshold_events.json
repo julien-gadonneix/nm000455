@@ -1,0 +1,36 @@
+{
+  "onset": {
+    "Description": "Start of the 2-s epoch in the concatenated file",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Epoch length (Dryad README: 2 s)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Trial category of the epoch",
+    "Levels": {
+      "perceived": "BC_trials: target presented, reported heard and correctly identified (article 2.3)",
+      "not_perceived": "WG_trials: target presented, reported not heard and incorrectly identified",
+      "blank": "blank_TN_trials: no target presented, reported not heard (true negative)"
+    }
+  },
+  "sample": {
+    "Description": "First sample of the epoch (0-based)"
+  },
+  "source_variable": {
+    "Description": "MATLAB variable in the sorted_trials file"
+  },
+  "source_trial_index": {
+    "Description": "Page (3rd dimension, 1-based) of the MATLAB array; trials are in order of appearance within their category (Dryad README)"
+  },
+  "n_channels_rejected": {
+    "Description": "Channels whose samples are all NaN in this epoch (removed by the authors' artifact screening)"
+  },
+  "channels_rejected": {
+    "Description": "Names of those channels"
+  },
+  "n_channels_partial_nan": {
+    "Description": "Channels with some (not all) NaN samples in this epoch"
+  }
+}

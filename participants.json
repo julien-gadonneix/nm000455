@@ -1,0 +1,15 @@
+{
+  "age": {
+    "Description": "Not released per participant (article: 38 enrolled, mean age 38.8, range 16-69 years)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not released per participant (article: 16 of 38 enrolled female)"
+  },
+  "site": {
+    "Description": "Recording site, from the subject code (numeric = Yale, NS = Northwell, MS = Mount Sinai) and the article"
+  },
+  "sessions": {
+    "Description": "ses-2 = the release folder with suffix '_2' (repeat participant with a second implantation, article 2.1)"
+  }
+}
