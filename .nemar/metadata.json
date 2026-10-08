@@ -1,0 +1,159 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Kate L. Christison-Lagay": {
+      "orcid": "0000-0003-0649-6740"
+    },
+    "Aya Khalaf": {},
+    "Noah C. Freedman": {},
+    "Christopher Micek": {},
+    "Sharif I. Kronemer": {},
+    "Mariana M. Gusso": {},
+    "Lauren Kim": {},
+    "Sarit Forman": {},
+    "Julia Ding": {},
+    "Mark Aksen": {},
+    "Ahmad Abdel-Aty": {},
+    "Hunki Kwon": {},
+    "Noah Markowitz": {},
+    "Erin Yeagle": {},
+    "Elizabeth Espinal": {},
+    "Jose Herrero": {},
+    "Stephan Bickel": {},
+    "James Young": {},
+    "Ashesh Mehta": {},
+    "Kun Wu": {},
+    "Jason Gerrard": {},
+    "Eyiyemisi Damisah": {},
+    "Dennis Spencer": {},
+    "Jiayin Qu": {
+      "orcid": "0009-0006-5277-8422",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "identifier": "https://ror.org/03v76x132",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Hal Blumenfeld": {
+      "orcid": "0009-0006-5277-8422",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "identifier": "https://ror.org/03v76x132",
+          "scheme": "ROR"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.h44j0zpww",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2025.121041",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2023.01.12.523829",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000455",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000455",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Mark Loughridge and Michelle Williams Foundation (HB)"
+    },
+    {
+      "funder_name": "Betsy and Jonathan Blattmachr Family (HB)"
+    },
+    {
+      "funder_name": "Fundação Araucária and CAPES 88887.185226/2018-00 (MG)"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 NS134655"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01 DC007657"
+    },
+    {
+      "funder_name": "Mark Loughridge and Michelle Williams Foundation"
+    },
+    {
+      "funder_name": "Betsy and Jonathan Blattmachr Family"
+    },
+    {
+      "funder_name": "CAPES",
+      "award_number": "88887.147295/2017-00"
+    },
+    {
+      "funder_name": "Fundação Araucária"
+    }
+  ],
+  "title": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "58.16 GB (119 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Epoched, artifact-screened intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task. A 75 ms target sound was embedded in white noise at each participant's 50% detection threshold, and trials are sorted into Perceived, Not Perceived and blank categories. The derivative release repackages the authors' 2-s grey-matter-electrode epochs from 30 participants (32 recordings) into BIDS; the continuous recordings were not released.",
+  "methods_description": "Participants with subdural grid, strip and depth electrodes at Yale New Haven Hospital, Northwell Health and Mount Sinai reported whether they heard a target sound and which one it was. Trials were epoched around the target and screened visually for epileptic events. A four-stage artifact rejection followed, and only grey-matter electrodes were kept. Removed channel-epochs are stored as NaN. The data are stored as BrainVision IEEE float32 files, one per participant and implantation, with epochs concatenated and marked in events.tsv.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "conscious perception"
+    },
+    {
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
+      "term": "perceptual threshold"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "epochs"
+    }
+  ],
+  "source_hash": "de6ac345e3dbe06f32b1604d7010a86047da443f54aef2beb0bdadc7715afcd8"
+}
