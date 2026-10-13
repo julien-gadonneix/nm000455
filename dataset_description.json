@@ -75,5 +75,7 @@
       "Description": "Repackaging of BC_trials / WG_trials / blank_TN_trials (float64) to BrainVision IEEE float32 (bit-exact to float32 of the source, NaN kept), one file per participant and implantation with the epochs concatenated and marked in events.tsv; montage-map values as released (space-Other). Code in code/.",
       "Version": "2026-10-08"
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000455",
+  "Version": "1.0.0"
 }
