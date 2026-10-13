@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
+  "description": "This derivative dataset contains epoched, artifact-screened intracranial EEG (icEEG) recorded from adults with drug-resistant epilepsy who performed an auditory perceptual threshold task. A 75 ms target sound was embedded in white noise at each participant's 50% detection threshold. Trials are sorted into Perceived, Not Perceived and blank categories. The release holds 2-s epochs from grey-matter electrodes only, covering 30 participants and 32 recordings. The continuous recordings were not released.",
+  "methods_description": "Subdural grid, strip and depth electrodes were recorded at Yale New Haven Hospital, Northwell Health and Mount Sinai. Participants reported whether they heard a sound and which one it was. The authors sorted trials by behaviour and removed epochs containing epileptic events by visual inspection. They then applied four-stage artifact rejection and kept only grey-matter electrodes. The epochs were repackaged into BrainVision float32 format with BIDS events and electrode metadata.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Kate L. Christison-Lagay": {
       "orcid": "0000-0003-0649-6740"
@@ -48,6 +53,30 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "auditory perception"
+    },
+    {
+      "term": "consciousness"
+    },
+    {
+      "term": "perceptual threshold"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.h44j0zpww",
@@ -107,14 +136,11 @@
       "funder_name": "Fundação Araucária"
     }
   ],
-  "title": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "58.16 GB (119 files)"
   ],
@@ -127,33 +153,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Epoched, artifact-screened intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task. A 75 ms target sound was embedded in white noise at each participant's 50% detection threshold, and trials are sorted into Perceived, Not Perceived and blank categories. The derivative release repackages the authors' 2-s grey-matter-electrode epochs from 30 participants (32 recordings) into BIDS; the continuous recordings were not released.",
-  "methods_description": "Participants with subdural grid, strip and depth electrodes at Yale New Haven Hospital, Northwell Health and Mount Sinai reported whether they heard a target sound and which one it was. Trials were epoched around the target and screened visually for epileptic events. A four-stage artifact rejection followed, and only grey-matter electrodes were kept. Removed channel-epochs are stored as NaN. The data are stored as BrainVision IEEE float32 files, one per participant and implantation, with epochs concatenated and marked in events.tsv.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "conscious perception"
-    },
-    {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
-    },
-    {
-      "term": "perceptual threshold"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "epochs"
-    }
-  ],
-  "source_hash": "de6ac345e3dbe06f32b1604d7010a86047da443f54aef2beb0bdadc7715afcd8"
+  "source_hash": "43169e4582d0a4b37f79451a2bf0ed02b55f305f25c6ffad9c6a2898a22f734d"
 }
