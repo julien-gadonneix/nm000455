@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
-  "description": "This derivative dataset contains epoched, artifact-screened intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task. A 75 ms target sound embedded in white noise at each participant's 50% detection threshold was either perceived or not perceived, with blank trials as controls. The data cover 30 participants and 32 recordings, restricted to grey-matter electrodes. They support study of the neural activity underlying auditory conscious perception.",
-  "methods_description": "Participants with subdural grids, strips and depth electrodes were recorded at Yale New Haven Hospital, Northwell Health and Mount Sinai while reporting whether and which sound (waterdrop, whistle or laser) they heard. The authors segmented continuous icEEG into epochs around the target sound. They removed epochs with epileptic events by visual inspection and applied four-stage artifact rejection. Trials were sorted into Perceived, Not Perceived and blank categories. The released 2-s epochs were repackaged to BrainVision float32 format with BIDS metadata.",
+  "description": "This derivative dataset provides epoched, artifact-screened intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task. A 75 ms target sound was embedded in white noise at each participant's 50% detection threshold, and trials are sorted into Perceived, Not Perceived and blank categories. The release contains 2-second grey-matter electrode epochs from 30 participants (32 recordings), repackaged from the authors' Dryad deposit into BIDS. Continuous recordings were not released. The position of the target sound within each 2-s epoch is not stated in the release, so epoch timing relative to the stimulus should be treated as unknown.",
+  "methods_description": "Intracranial EEG was recorded from subdural grids, strips and depth electrodes at three clinical sites (Yale New Haven Hospital, Northwell Health, Mount Sinai). Participants reported whether they heard a sound and which one. Trials were sorted by behaviour. Epochs containing epileptic events were removed by visual inspection, and a four-stage artifact rejection was applied. Only grey-matter electrodes were retained, and removed channel-epochs are stored as NaN.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -58,12 +58,10 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "conscious perception"
+      "term": "auditory perception"
     },
     {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+      "term": "conscious perception"
     },
     {
       "term": "perceptual threshold"
@@ -74,7 +72,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "electrocorticography"
+      "term": "epochs"
+    },
+    {
+      "term": "derivative"
     }
   ],
   "related_identifiers": [
@@ -91,7 +92,7 @@
     {
       "identifier": "10.1101/2023.01.12.523829",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000455",
@@ -112,9 +113,6 @@
       "funder_name": "Betsy and Jonathan Blattmachr Family (HB)"
     },
     {
-      "funder_name": "Fundação Araucária and CAPES 88887.185226/2018-00 (MG)"
-    },
-    {
       "funder_name": "NIH",
       "award_number": "R01 NS134655"
     },
@@ -133,7 +131,15 @@
       "award_number": "88887.147295/2017-00"
     },
     {
+      "funder_name": "CAPES",
+      "award_number": "88881.186875/2018-01"
+    },
+    {
       "funder_name": "Fundação Araucária"
+    },
+    {
+      "funder_name": "CAPES",
+      "award_number": "88887.185226/2018-00"
     }
   ],
   "resource_type_general": "Dataset",
