@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "ChristisonLagay-2025-neural-10.1016/j.neuroimage.2025.121041",
+  "title": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
   "description": "This derivative dataset contains epoched, artifact-screened intracranial EEG from adults with drug-resistant epilepsy performing an auditory perceptual threshold task. A 75 ms target sound embedded in white noise at each participant's 50% detection threshold was either perceived or not perceived, with blank trials as controls. The data cover 30 participants and 32 recordings, restricted to grey-matter electrodes. They support study of the neural activity underlying auditory conscious perception.",
   "methods_description": "Participants with subdural grids, strips and depth electrodes were recorded at Yale New Haven Hospital, Northwell Health and Mount Sinai while reporting whether and which sound (waterdrop, whistle or laser) they heard. The authors segmented continuous icEEG into epochs around the target sound. They removed epochs with epileptic events by visual inspection and applied four-stage artifact rejection. Trials were sorted into Perceived, Not Perceived and blank categories. The released 2-s epochs were repackaged to BrainVision float32 format with BIDS metadata.",
   "license": "CC0-1.0",
@@ -156,5 +156,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "5732389157645a52eef82cb911ec7ec8915041b108b6495e70eb02ad8bbac3d3"
+  "source_hash": "1abc1b26388ba5762dbb2040964b34b3ecbcd000c8a2e93dddf8cf8e970d3cbe"
 }

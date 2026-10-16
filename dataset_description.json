@@ -1,5 +1,5 @@
 {
-  "Name": "ChristisonLagay-2025-neural-10.1016/j.neuroimage.2025.121041",
+  "Name": "The neural activity of auditory conscious perception: intracranial EEG epochs (Christison-Lagay et al. 2025; derivative: authors' 2-s grey-matter epochs)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -77,5 +77,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000455",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
