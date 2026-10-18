@@ -77,3 +77,7 @@ sound was heard and which one. Perceived = heard and correctly identified; Not P
 Subject labels are the authors' study codes. The MAT files hold no strings in the signal and montage files. The MAT header file-creation
 dates were set to day 01. The behaviour file names and their subject_idnumber field contained participant initials. They were removed,
 and the key status is recorded as retained.
+
+## Amplitude check: sub-MS001 (added 2026-10-19, version 1.0.3)
+
+The single amplitude FAIL of the 2026-10-18 check (sub-MS001 ses-1, robust SD about 4600 µV) comes only from the released block of invalid values described above ("implausibly large values"): all of them lie in samples 296000-299999, i.e. 148.0-150.0 s of the file (one 2-s epoch, 61 channels, |value| up to 1.96e38; release page `perceived_75`). Filters spread these values across the recording. Without that block the channels have a robust SD after a 1 Hz high-pass of 107-128 µV (median 114), higher than the other participants (32-58 µV) but not a unit error; the unit stays µV. To exclude the block in MNE, e.g. `raw.annotations.append(148.0, 2.0, 'BAD_release_values')` before filtering, or drop that epoch. Values kept as released. Evidence files: fix1019 `out/pubamp/` (Voyager Jobs ieeg-f19-pa-*, 19 Oct 2026).

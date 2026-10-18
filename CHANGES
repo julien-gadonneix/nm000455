@@ -1,3 +1,6 @@
+1.0.3 2026-10-19
+  - README.md: section "Amplitude check: sub-MS001": the released invalid values (up to 1.96e38) are samples 296000-299999 (148.0-150.0 s); without them robust SD 107-128 µV. No data, header or sidecar file changed.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
