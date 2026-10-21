@@ -32,5 +32,15 @@
   },
   "n_channels_partial_nan": {
     "Description": "Channels with some (not all) NaN samples in this epoch"
+  },
+  "status": {
+    "Description": "Data quality of the epoch; only in recordings with a flagged epoch",
+    "Levels": {
+      "good": "no known problem",
+      "bad": "invalid values (see status_description)"
+    }
+  },
+  "status_description": {
+    "Description": "Reason for status bad"
   }
 }

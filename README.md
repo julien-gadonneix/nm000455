@@ -35,7 +35,7 @@ sound was heard and which one. Perceived = heard and correctly identified; Not P
 - Channels `E001`... = electrode # of the release (channel i of the arrays = electrode #i of the montage maps). Type `EEG` because
   the release does not say which contacts are grid, strip or depth. µV (unit implied by the article's µV thresholds; not stated in the files).
 - Data format: BrainVision IEEE float32. The float64 source values are stored as float32 (largest relative difference
-  5.96e-08, i.e. float32 rounding). CAVEAT: some released epochs contain implausibly large values (|value| > 1e6 µV; recording: [number of samples, largest |value|]): sub-MS001_ses-1: [244000, 1.96e+38]. They are kept exactly as released (float32 rounding only); treat them as artifacts. Every file was read back bit-identical to float32 of the source, NaN included, and read with MNE.
+  5.96e-08, i.e. float32 rounding). CAVEAT: some released epochs contain implausibly large values (|value| > 1e6 µV; recording: [number of samples, largest |value|]): sub-MS001_ses-1: [244000, 1.96e+38]. They are kept exactly as released (float32 rounding only); treat them as artifacts. This is one epoch (BC_trials page 75; events.tsv row at sample 296000, onset 148 s), marked `bad` in the `status` column of its events.tsv; every other MS001 epoch has |value| <= 1161 µV. Every file was read back bit-identical to float32 of the source, NaN included, and read with MNE.
   The float64 originals are in sourcedata/.
 - Electrodes: `space-Other` with columns 2-4 of the authors' L_/R_MontageMap.mat, unchanged. CAVEAT: the README calls them "3d MNI
   coordinates" and the article says BioImage Suite placed electrodes in "MNI space (Colin 22 brain template)". But the values are all

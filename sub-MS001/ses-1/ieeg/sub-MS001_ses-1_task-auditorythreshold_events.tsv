@@ -1,136 +1,136 @@
-onset	duration	trial_type	sample	source_variable	source_trial_index	n_channels_rejected	channels_rejected	n_channels_partial_nan
-0.0	2.0	perceived	0	BC_trials	1	0	n/a	0
-2.0	2.0	perceived	4000	BC_trials	2	0	n/a	0
-4.0	2.0	perceived	8000	BC_trials	3	0	n/a	0
-6.0	2.0	perceived	12000	BC_trials	4	0	n/a	0
-8.0	2.0	perceived	16000	BC_trials	5	0	n/a	0
-10.0	2.0	perceived	20000	BC_trials	6	0	n/a	0
-12.0	2.0	perceived	24000	BC_trials	7	0	n/a	0
-14.0	2.0	perceived	28000	BC_trials	8	0	n/a	0
-16.0	2.0	perceived	32000	BC_trials	9	0	n/a	0
-18.0	2.0	perceived	36000	BC_trials	10	0	n/a	0
-20.0	2.0	perceived	40000	BC_trials	11	0	n/a	0
-22.0	2.0	perceived	44000	BC_trials	12	0	n/a	0
-24.0	2.0	perceived	48000	BC_trials	13	0	n/a	0
-26.0	2.0	perceived	52000	BC_trials	14	0	n/a	0
-28.0	2.0	perceived	56000	BC_trials	15	0	n/a	0
-30.0	2.0	perceived	60000	BC_trials	16	0	n/a	0
-32.0	2.0	perceived	64000	BC_trials	17	0	n/a	0
-34.0	2.0	perceived	68000	BC_trials	18	0	n/a	0
-36.0	2.0	perceived	72000	BC_trials	19	0	n/a	0
-38.0	2.0	perceived	76000	BC_trials	20	0	n/a	0
-40.0	2.0	perceived	80000	BC_trials	21	0	n/a	0
-42.0	2.0	perceived	84000	BC_trials	22	0	n/a	0
-44.0	2.0	perceived	88000	BC_trials	23	0	n/a	0
-46.0	2.0	perceived	92000	BC_trials	24	0	n/a	0
-48.0	2.0	perceived	96000	BC_trials	25	0	n/a	0
-50.0	2.0	perceived	100000	BC_trials	26	0	n/a	0
-52.0	2.0	perceived	104000	BC_trials	27	0	n/a	0
-54.0	2.0	perceived	108000	BC_trials	28	0	n/a	0
-56.0	2.0	perceived	112000	BC_trials	29	0	n/a	0
-58.0	2.0	perceived	116000	BC_trials	30	0	n/a	0
-60.0	2.0	perceived	120000	BC_trials	31	0	n/a	0
-62.0	2.0	perceived	124000	BC_trials	32	0	n/a	0
-64.0	2.0	perceived	128000	BC_trials	33	0	n/a	0
-66.0	2.0	perceived	132000	BC_trials	34	0	n/a	0
-68.0	2.0	perceived	136000	BC_trials	35	0	n/a	0
-70.0	2.0	perceived	140000	BC_trials	36	0	n/a	0
-72.0	2.0	perceived	144000	BC_trials	37	0	n/a	0
-74.0	2.0	perceived	148000	BC_trials	38	0	n/a	0
-76.0	2.0	perceived	152000	BC_trials	39	0	n/a	0
-78.0	2.0	perceived	156000	BC_trials	40	0	n/a	0
-80.0	2.0	perceived	160000	BC_trials	41	0	n/a	0
-82.0	2.0	perceived	164000	BC_trials	42	0	n/a	0
-84.0	2.0	perceived	168000	BC_trials	43	0	n/a	0
-86.0	2.0	perceived	172000	BC_trials	44	0	n/a	0
-88.0	2.0	perceived	176000	BC_trials	45	0	n/a	0
-90.0	2.0	perceived	180000	BC_trials	46	0	n/a	0
-92.0	2.0	perceived	184000	BC_trials	47	0	n/a	0
-94.0	2.0	perceived	188000	BC_trials	48	0	n/a	0
-96.0	2.0	perceived	192000	BC_trials	49	0	n/a	0
-98.0	2.0	perceived	196000	BC_trials	50	0	n/a	0
-100.0	2.0	perceived	200000	BC_trials	51	0	n/a	0
-102.0	2.0	perceived	204000	BC_trials	52	0	n/a	0
-104.0	2.0	perceived	208000	BC_trials	53	0	n/a	0
-106.0	2.0	perceived	212000	BC_trials	54	0	n/a	0
-108.0	2.0	perceived	216000	BC_trials	55	0	n/a	0
-110.0	2.0	perceived	220000	BC_trials	56	0	n/a	0
-112.0	2.0	perceived	224000	BC_trials	57	0	n/a	0
-114.0	2.0	perceived	228000	BC_trials	58	0	n/a	0
-116.0	2.0	perceived	232000	BC_trials	59	0	n/a	0
-118.0	2.0	perceived	236000	BC_trials	60	0	n/a	0
-120.0	2.0	perceived	240000	BC_trials	61	0	n/a	0
-122.0	2.0	perceived	244000	BC_trials	62	0	n/a	0
-124.0	2.0	perceived	248000	BC_trials	63	0	n/a	0
-126.0	2.0	perceived	252000	BC_trials	64	0	n/a	0
-128.0	2.0	perceived	256000	BC_trials	65	0	n/a	0
-130.0	2.0	perceived	260000	BC_trials	66	0	n/a	0
-132.0	2.0	perceived	264000	BC_trials	67	0	n/a	0
-134.0	2.0	perceived	268000	BC_trials	68	0	n/a	0
-136.0	2.0	perceived	272000	BC_trials	69	0	n/a	0
-138.0	2.0	perceived	276000	BC_trials	70	0	n/a	0
-140.0	2.0	perceived	280000	BC_trials	71	0	n/a	0
-142.0	2.0	perceived	284000	BC_trials	72	0	n/a	0
-144.0	2.0	perceived	288000	BC_trials	73	0	n/a	0
-146.0	2.0	perceived	292000	BC_trials	74	0	n/a	0
-148.0	2.0	perceived	296000	BC_trials	75	0	n/a	0
-150.0	2.0	perceived	300000	BC_trials	76	0	n/a	0
-152.0	2.0	perceived	304000	BC_trials	77	0	n/a	0
-154.0	2.0	perceived	308000	BC_trials	78	0	n/a	0
-156.0	2.0	not_perceived	312000	WG_trials	1	0	n/a	0
-158.0	2.0	not_perceived	316000	WG_trials	2	0	n/a	0
-160.0	2.0	not_perceived	320000	WG_trials	3	0	n/a	0
-162.0	2.0	not_perceived	324000	WG_trials	4	0	n/a	0
-164.0	2.0	not_perceived	328000	WG_trials	5	0	n/a	0
-166.0	2.0	not_perceived	332000	WG_trials	6	0	n/a	0
-168.0	2.0	not_perceived	336000	WG_trials	7	0	n/a	0
-170.0	2.0	not_perceived	340000	WG_trials	8	0	n/a	0
-172.0	2.0	not_perceived	344000	WG_trials	9	0	n/a	0
-174.0	2.0	not_perceived	348000	WG_trials	10	0	n/a	0
-176.0	2.0	not_perceived	352000	WG_trials	11	0	n/a	0
-178.0	2.0	not_perceived	356000	WG_trials	12	0	n/a	0
-180.0	2.0	not_perceived	360000	WG_trials	13	0	n/a	0
-182.0	2.0	not_perceived	364000	WG_trials	14	0	n/a	0
-184.0	2.0	not_perceived	368000	WG_trials	15	0	n/a	0
-186.0	2.0	not_perceived	372000	WG_trials	16	0	n/a	0
-188.0	2.0	not_perceived	376000	WG_trials	17	0	n/a	0
-190.0	2.0	not_perceived	380000	WG_trials	18	0	n/a	0
-192.0	2.0	not_perceived	384000	WG_trials	19	0	n/a	0
-194.0	2.0	not_perceived	388000	WG_trials	20	0	n/a	0
-196.0	2.0	not_perceived	392000	WG_trials	21	0	n/a	0
-198.0	2.0	not_perceived	396000	WG_trials	22	0	n/a	0
-200.0	2.0	not_perceived	400000	WG_trials	23	0	n/a	0
-202.0	2.0	not_perceived	404000	WG_trials	24	0	n/a	0
-204.0	2.0	not_perceived	408000	WG_trials	25	0	n/a	0
-206.0	2.0	not_perceived	412000	WG_trials	26	0	n/a	0
-208.0	2.0	not_perceived	416000	WG_trials	27	0	n/a	0
-210.0	2.0	not_perceived	420000	WG_trials	28	0	n/a	0
-212.0	2.0	not_perceived	424000	WG_trials	29	0	n/a	0
-214.0	2.0	not_perceived	428000	WG_trials	30	0	n/a	0
-216.0	2.0	not_perceived	432000	WG_trials	31	0	n/a	0
-218.0	2.0	not_perceived	436000	WG_trials	32	0	n/a	0
-220.0	2.0	not_perceived	440000	WG_trials	33	0	n/a	0
-222.0	2.0	not_perceived	444000	WG_trials	34	0	n/a	0
-224.0	2.0	blank	448000	blank_TN_trials	1	0	n/a	0
-226.0	2.0	blank	452000	blank_TN_trials	2	0	n/a	0
-228.0	2.0	blank	456000	blank_TN_trials	3	0	n/a	0
-230.0	2.0	blank	460000	blank_TN_trials	4	0	n/a	0
-232.0	2.0	blank	464000	blank_TN_trials	5	0	n/a	0
-234.0	2.0	blank	468000	blank_TN_trials	6	0	n/a	0
-236.0	2.0	blank	472000	blank_TN_trials	7	0	n/a	0
-238.0	2.0	blank	476000	blank_TN_trials	8	0	n/a	0
-240.0	2.0	blank	480000	blank_TN_trials	9	0	n/a	0
-242.0	2.0	blank	484000	blank_TN_trials	10	0	n/a	0
-244.0	2.0	blank	488000	blank_TN_trials	11	0	n/a	0
-246.0	2.0	blank	492000	blank_TN_trials	12	0	n/a	0
-248.0	2.0	blank	496000	blank_TN_trials	13	0	n/a	0
-250.0	2.0	blank	500000	blank_TN_trials	14	0	n/a	0
-252.0	2.0	blank	504000	blank_TN_trials	15	0	n/a	0
-254.0	2.0	blank	508000	blank_TN_trials	16	0	n/a	0
-256.0	2.0	blank	512000	blank_TN_trials	17	0	n/a	0
-258.0	2.0	blank	516000	blank_TN_trials	18	0	n/a	0
-260.0	2.0	blank	520000	blank_TN_trials	19	0	n/a	0
-262.0	2.0	blank	524000	blank_TN_trials	20	0	n/a	0
-264.0	2.0	blank	528000	blank_TN_trials	21	0	n/a	0
-266.0	2.0	blank	532000	blank_TN_trials	22	0	n/a	0
-268.0	2.0	blank	536000	blank_TN_trials	23	0	n/a	0
+onset	duration	trial_type	sample	source_variable	source_trial_index	n_channels_rejected	channels_rejected	n_channels_partial_nan	status	status_description
+0.0	2.0	perceived	0	BC_trials	1	0	n/a	0	good	n/a
+2.0	2.0	perceived	4000	BC_trials	2	0	n/a	0	good	n/a
+4.0	2.0	perceived	8000	BC_trials	3	0	n/a	0	good	n/a
+6.0	2.0	perceived	12000	BC_trials	4	0	n/a	0	good	n/a
+8.0	2.0	perceived	16000	BC_trials	5	0	n/a	0	good	n/a
+10.0	2.0	perceived	20000	BC_trials	6	0	n/a	0	good	n/a
+12.0	2.0	perceived	24000	BC_trials	7	0	n/a	0	good	n/a
+14.0	2.0	perceived	28000	BC_trials	8	0	n/a	0	good	n/a
+16.0	2.0	perceived	32000	BC_trials	9	0	n/a	0	good	n/a
+18.0	2.0	perceived	36000	BC_trials	10	0	n/a	0	good	n/a
+20.0	2.0	perceived	40000	BC_trials	11	0	n/a	0	good	n/a
+22.0	2.0	perceived	44000	BC_trials	12	0	n/a	0	good	n/a
+24.0	2.0	perceived	48000	BC_trials	13	0	n/a	0	good	n/a
+26.0	2.0	perceived	52000	BC_trials	14	0	n/a	0	good	n/a
+28.0	2.0	perceived	56000	BC_trials	15	0	n/a	0	good	n/a
+30.0	2.0	perceived	60000	BC_trials	16	0	n/a	0	good	n/a
+32.0	2.0	perceived	64000	BC_trials	17	0	n/a	0	good	n/a
+34.0	2.0	perceived	68000	BC_trials	18	0	n/a	0	good	n/a
+36.0	2.0	perceived	72000	BC_trials	19	0	n/a	0	good	n/a
+38.0	2.0	perceived	76000	BC_trials	20	0	n/a	0	good	n/a
+40.0	2.0	perceived	80000	BC_trials	21	0	n/a	0	good	n/a
+42.0	2.0	perceived	84000	BC_trials	22	0	n/a	0	good	n/a
+44.0	2.0	perceived	88000	BC_trials	23	0	n/a	0	good	n/a
+46.0	2.0	perceived	92000	BC_trials	24	0	n/a	0	good	n/a
+48.0	2.0	perceived	96000	BC_trials	25	0	n/a	0	good	n/a
+50.0	2.0	perceived	100000	BC_trials	26	0	n/a	0	good	n/a
+52.0	2.0	perceived	104000	BC_trials	27	0	n/a	0	good	n/a
+54.0	2.0	perceived	108000	BC_trials	28	0	n/a	0	good	n/a
+56.0	2.0	perceived	112000	BC_trials	29	0	n/a	0	good	n/a
+58.0	2.0	perceived	116000	BC_trials	30	0	n/a	0	good	n/a
+60.0	2.0	perceived	120000	BC_trials	31	0	n/a	0	good	n/a
+62.0	2.0	perceived	124000	BC_trials	32	0	n/a	0	good	n/a
+64.0	2.0	perceived	128000	BC_trials	33	0	n/a	0	good	n/a
+66.0	2.0	perceived	132000	BC_trials	34	0	n/a	0	good	n/a
+68.0	2.0	perceived	136000	BC_trials	35	0	n/a	0	good	n/a
+70.0	2.0	perceived	140000	BC_trials	36	0	n/a	0	good	n/a
+72.0	2.0	perceived	144000	BC_trials	37	0	n/a	0	good	n/a
+74.0	2.0	perceived	148000	BC_trials	38	0	n/a	0	good	n/a
+76.0	2.0	perceived	152000	BC_trials	39	0	n/a	0	good	n/a
+78.0	2.0	perceived	156000	BC_trials	40	0	n/a	0	good	n/a
+80.0	2.0	perceived	160000	BC_trials	41	0	n/a	0	good	n/a
+82.0	2.0	perceived	164000	BC_trials	42	0	n/a	0	good	n/a
+84.0	2.0	perceived	168000	BC_trials	43	0	n/a	0	good	n/a
+86.0	2.0	perceived	172000	BC_trials	44	0	n/a	0	good	n/a
+88.0	2.0	perceived	176000	BC_trials	45	0	n/a	0	good	n/a
+90.0	2.0	perceived	180000	BC_trials	46	0	n/a	0	good	n/a
+92.0	2.0	perceived	184000	BC_trials	47	0	n/a	0	good	n/a
+94.0	2.0	perceived	188000	BC_trials	48	0	n/a	0	good	n/a
+96.0	2.0	perceived	192000	BC_trials	49	0	n/a	0	good	n/a
+98.0	2.0	perceived	196000	BC_trials	50	0	n/a	0	good	n/a
+100.0	2.0	perceived	200000	BC_trials	51	0	n/a	0	good	n/a
+102.0	2.0	perceived	204000	BC_trials	52	0	n/a	0	good	n/a
+104.0	2.0	perceived	208000	BC_trials	53	0	n/a	0	good	n/a
+106.0	2.0	perceived	212000	BC_trials	54	0	n/a	0	good	n/a
+108.0	2.0	perceived	216000	BC_trials	55	0	n/a	0	good	n/a
+110.0	2.0	perceived	220000	BC_trials	56	0	n/a	0	good	n/a
+112.0	2.0	perceived	224000	BC_trials	57	0	n/a	0	good	n/a
+114.0	2.0	perceived	228000	BC_trials	58	0	n/a	0	good	n/a
+116.0	2.0	perceived	232000	BC_trials	59	0	n/a	0	good	n/a
+118.0	2.0	perceived	236000	BC_trials	60	0	n/a	0	good	n/a
+120.0	2.0	perceived	240000	BC_trials	61	0	n/a	0	good	n/a
+122.0	2.0	perceived	244000	BC_trials	62	0	n/a	0	good	n/a
+124.0	2.0	perceived	248000	BC_trials	63	0	n/a	0	good	n/a
+126.0	2.0	perceived	252000	BC_trials	64	0	n/a	0	good	n/a
+128.0	2.0	perceived	256000	BC_trials	65	0	n/a	0	good	n/a
+130.0	2.0	perceived	260000	BC_trials	66	0	n/a	0	good	n/a
+132.0	2.0	perceived	264000	BC_trials	67	0	n/a	0	good	n/a
+134.0	2.0	perceived	268000	BC_trials	68	0	n/a	0	good	n/a
+136.0	2.0	perceived	272000	BC_trials	69	0	n/a	0	good	n/a
+138.0	2.0	perceived	276000	BC_trials	70	0	n/a	0	good	n/a
+140.0	2.0	perceived	280000	BC_trials	71	0	n/a	0	good	n/a
+142.0	2.0	perceived	284000	BC_trials	72	0	n/a	0	good	n/a
+144.0	2.0	perceived	288000	BC_trials	73	0	n/a	0	good	n/a
+146.0	2.0	perceived	292000	BC_trials	74	0	n/a	0	good	n/a
+148.0	2.0	perceived	296000	BC_trials	75	0	n/a	0	bad	invalid source values: |x| > 1e6 µV in all 61 channels (max 1.96e38)
+150.0	2.0	perceived	300000	BC_trials	76	0	n/a	0	good	n/a
+152.0	2.0	perceived	304000	BC_trials	77	0	n/a	0	good	n/a
+154.0	2.0	perceived	308000	BC_trials	78	0	n/a	0	good	n/a
+156.0	2.0	not_perceived	312000	WG_trials	1	0	n/a	0	good	n/a
+158.0	2.0	not_perceived	316000	WG_trials	2	0	n/a	0	good	n/a
+160.0	2.0	not_perceived	320000	WG_trials	3	0	n/a	0	good	n/a
+162.0	2.0	not_perceived	324000	WG_trials	4	0	n/a	0	good	n/a
+164.0	2.0	not_perceived	328000	WG_trials	5	0	n/a	0	good	n/a
+166.0	2.0	not_perceived	332000	WG_trials	6	0	n/a	0	good	n/a
+168.0	2.0	not_perceived	336000	WG_trials	7	0	n/a	0	good	n/a
+170.0	2.0	not_perceived	340000	WG_trials	8	0	n/a	0	good	n/a
+172.0	2.0	not_perceived	344000	WG_trials	9	0	n/a	0	good	n/a
+174.0	2.0	not_perceived	348000	WG_trials	10	0	n/a	0	good	n/a
+176.0	2.0	not_perceived	352000	WG_trials	11	0	n/a	0	good	n/a
+178.0	2.0	not_perceived	356000	WG_trials	12	0	n/a	0	good	n/a
+180.0	2.0	not_perceived	360000	WG_trials	13	0	n/a	0	good	n/a
+182.0	2.0	not_perceived	364000	WG_trials	14	0	n/a	0	good	n/a
+184.0	2.0	not_perceived	368000	WG_trials	15	0	n/a	0	good	n/a
+186.0	2.0	not_perceived	372000	WG_trials	16	0	n/a	0	good	n/a
+188.0	2.0	not_perceived	376000	WG_trials	17	0	n/a	0	good	n/a
+190.0	2.0	not_perceived	380000	WG_trials	18	0	n/a	0	good	n/a
+192.0	2.0	not_perceived	384000	WG_trials	19	0	n/a	0	good	n/a
+194.0	2.0	not_perceived	388000	WG_trials	20	0	n/a	0	good	n/a
+196.0	2.0	not_perceived	392000	WG_trials	21	0	n/a	0	good	n/a
+198.0	2.0	not_perceived	396000	WG_trials	22	0	n/a	0	good	n/a
+200.0	2.0	not_perceived	400000	WG_trials	23	0	n/a	0	good	n/a
+202.0	2.0	not_perceived	404000	WG_trials	24	0	n/a	0	good	n/a
+204.0	2.0	not_perceived	408000	WG_trials	25	0	n/a	0	good	n/a
+206.0	2.0	not_perceived	412000	WG_trials	26	0	n/a	0	good	n/a
+208.0	2.0	not_perceived	416000	WG_trials	27	0	n/a	0	good	n/a
+210.0	2.0	not_perceived	420000	WG_trials	28	0	n/a	0	good	n/a
+212.0	2.0	not_perceived	424000	WG_trials	29	0	n/a	0	good	n/a
+214.0	2.0	not_perceived	428000	WG_trials	30	0	n/a	0	good	n/a
+216.0	2.0	not_perceived	432000	WG_trials	31	0	n/a	0	good	n/a
+218.0	2.0	not_perceived	436000	WG_trials	32	0	n/a	0	good	n/a
+220.0	2.0	not_perceived	440000	WG_trials	33	0	n/a	0	good	n/a
+222.0	2.0	not_perceived	444000	WG_trials	34	0	n/a	0	good	n/a
+224.0	2.0	blank	448000	blank_TN_trials	1	0	n/a	0	good	n/a
+226.0	2.0	blank	452000	blank_TN_trials	2	0	n/a	0	good	n/a
+228.0	2.0	blank	456000	blank_TN_trials	3	0	n/a	0	good	n/a
+230.0	2.0	blank	460000	blank_TN_trials	4	0	n/a	0	good	n/a
+232.0	2.0	blank	464000	blank_TN_trials	5	0	n/a	0	good	n/a
+234.0	2.0	blank	468000	blank_TN_trials	6	0	n/a	0	good	n/a
+236.0	2.0	blank	472000	blank_TN_trials	7	0	n/a	0	good	n/a
+238.0	2.0	blank	476000	blank_TN_trials	8	0	n/a	0	good	n/a
+240.0	2.0	blank	480000	blank_TN_trials	9	0	n/a	0	good	n/a
+242.0	2.0	blank	484000	blank_TN_trials	10	0	n/a	0	good	n/a
+244.0	2.0	blank	488000	blank_TN_trials	11	0	n/a	0	good	n/a
+246.0	2.0	blank	492000	blank_TN_trials	12	0	n/a	0	good	n/a
+248.0	2.0	blank	496000	blank_TN_trials	13	0	n/a	0	good	n/a
+250.0	2.0	blank	500000	blank_TN_trials	14	0	n/a	0	good	n/a
+252.0	2.0	blank	504000	blank_TN_trials	15	0	n/a	0	good	n/a
+254.0	2.0	blank	508000	blank_TN_trials	16	0	n/a	0	good	n/a
+256.0	2.0	blank	512000	blank_TN_trials	17	0	n/a	0	good	n/a
+258.0	2.0	blank	516000	blank_TN_trials	18	0	n/a	0	good	n/a
+260.0	2.0	blank	520000	blank_TN_trials	19	0	n/a	0	good	n/a
+262.0	2.0	blank	524000	blank_TN_trials	20	0	n/a	0	good	n/a
+264.0	2.0	blank	528000	blank_TN_trials	21	0	n/a	0	good	n/a
+266.0	2.0	blank	532000	blank_TN_trials	22	0	n/a	0	good	n/a
+268.0	2.0	blank	536000	blank_TN_trials	23	0	n/a	0	good	n/a
