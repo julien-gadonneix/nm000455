@@ -1,5 +1,5 @@
 1.0.3 2026-10-21
-  - sub-MS001_ses-1 events.tsv: new status/status_description columns; the epoch with invalid source values (BC_trials page 75, |x| up to 1.96e38) is marked bad. Columns described in task-auditorythreshold_events.json.
+  - sub-MS001_ses-1 events.tsv: new status/status_description columns; the epoch with invalid source values (BC_trials page 75, |x| up to 1.96e38) is marked bad. Columns described in task-auditorythreshold_events.json; the README caveat names the epoch.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
